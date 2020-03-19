@@ -59,7 +59,7 @@ class IceCreamViewModel(
         for (repeated in orderList) {
             if (setElement.contains(repeated)) validatedList.add(repeated)
         }
-        if (validatedList.size > 1) orderList.removeAll { it -> it == iceCream }
+        if (validatedList.size > 1) orderList.removeAll { it == iceCream }
         else orderList.add(iceCream)
     }
 
