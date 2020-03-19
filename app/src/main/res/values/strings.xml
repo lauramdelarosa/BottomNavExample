@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IceCream</string>
+    <string name="base_url">http://gl-endpoint.herokuapp.com/</string>
+
+    <string name="initial_text">WELCOME</string>
+    <string name="order_item">ORDER ITEM</string>
+    <string name="start_new_order">START NEW ORDER</string>
+</resources>
