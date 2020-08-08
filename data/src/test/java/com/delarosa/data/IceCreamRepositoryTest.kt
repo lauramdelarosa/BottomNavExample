@@ -1,7 +1,5 @@
 package com.delarosa.data
 
-import com.delarosa.data.datasource.RemoteIceCreamDataSource
-import com.delarosa.data.repository.IceCreamRepository
 import com.delarosa.testshared.mockedIceCream
 import com.nhaarman.mockitokotlin2.whenever
 import junit.framework.Assert.assertEquals

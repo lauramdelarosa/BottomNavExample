@@ -8,4 +8,52 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <!--text-->
+    <style name="AppTheme.TextAppearance">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body2</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">@dimen/text_small</item>
+        <item name="android:textColor">@color/colorTextMessage</item>
+    </style>
+
+    <style name="AppTheme.TextAppearanceBold">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body2</item>
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="android:textColor">@color/colorTextAuth</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">@dimen/_24sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_24sdp</item>
+    </style>
+
+    <!--button-->
+    <style name="AppTheme.ButtonAppearance">
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button</item>
+        <item name="fontFamily">@font/montserrat_bold</item>
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="android:background">@color/colorButton</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/_24sdp</item>
+        <item name="android:layout_marginLeft">@dimen/_24sdp</item>
+        <item name="android:paddingStart">@dimen/_12sdp</item>
+        <item name="android:paddingEnd">@dimen/_12sdp</item>
+    </style>
+
+
+    <!--auth code -->
+    <style name="AppTheme.CodeAppearance">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body2</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="android:textColor">@color/colorTextAuthCode</item>
+        <item name="android:layout_width">@dimen/size</item>
+        <item name="android:layout_height">@dimen/size</item>
+        <item name="android:layout_marginEnd">@dimen/_16sdp</item>
+        <item name="android:background">@color/authCodeBackground</item>
+        <item name="android:gravity">center</item>
+    </style>
+
 </resources>

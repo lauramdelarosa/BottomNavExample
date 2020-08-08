@@ -34,7 +34,10 @@ allprojects {
                 material            : 'com.google.android.material:material:1.0.0',
                 glide               : 'com.github.bumptech.glide:glide:4.9.0',
                 navigationFragment  : 'androidx.navigation:navigation-fragment-ktx:2.1.0',
-                navigation          : 'androidx.navigation:navigation-ui-ktx:2.1.0'
+                navigation          : 'androidx.navigation:navigation-ui-ktx:2.1.0',
+                dimension           : 'com.intuit.sdp:sdp-android:1.0.6',
+                lottie              : 'com.airbnb.android:lottie:3.4.0',
+                exoplayer           : 'com.google.android.exoplayer:exoplayer:2.11.7'
         ]
 
         androidKaptLibs = [

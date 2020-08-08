@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!--  base-->
     <color name="colorPrimary">#7FD0D3</color>
     <color name="colorPrimaryDark">#7FD0D3</color>
     <color name="colorAccent">#0C7D81</color>
+
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorWhiteGray">#F8F5F5</color>
     <color name="colorGray">#DFDBDB</color>
     <color name="colorGrayDark">#757575</color>
     <color name="colorDark">#3E3D3D</color>
+
+    <!--    background-->
+    <color name="colorBackgroundSplash">#7FD0D3</color>
+    <color name="colorBackgroundAuth">#7FD0D3</color>
+    <color name="colorBackgroundConfig">#7FD0D3</color>
+    <color name="colorBackgroundReplay">#7FD0D3</color>
+    <color name="colorBackgroundInfo">#7FD0D3</color>
+    <color name="colorBackgroundVideo">#7FD0D3</color>
+    <color name="colorBackgroundAdmin">#7FD0D3</color>
+
+    <!--  authCodeBackground -->
+    <color name="authCodeBackground">#A7D7DA</color>
+
+    <!--  text -->
+    <color name="colorTextAuth">#0C7D81</color>
+    <color name="colorTextAuthCode">#0C7D81</color>
+    <color name="colorTextMessage">#0C7D81</color>
+
+    <!-- buttons -->
+    <color name="colorButton">#0C7D81</color>
+
+
+
 </resources>

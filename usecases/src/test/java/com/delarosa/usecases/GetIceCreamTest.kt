@@ -1,7 +1,6 @@
 package com.delarosa.usecases
 
 import com.delarosa.data.ResultData
-import com.delarosa.data.repository.IceCreamRepository
 import com.delarosa.testshared.mockedIceCream
 import com.nhaarman.mockitokotlin2.whenever
 import kotlinx.coroutines.runBlocking
